@@ -75,7 +75,12 @@ img {
 
 /* MEDIA QUERY */
 @media screen and (max-width: 420px){
-  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   /* BLOCCO LEZIONI */
   .container, #why{
     background-color: #f2f2cd;
